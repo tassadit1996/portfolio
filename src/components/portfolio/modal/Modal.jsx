@@ -116,7 +116,20 @@ const Modal = ({ modalId, setGetModal }) => {
 																</a>
 															</>
 														) : (
-															details.github
+															<a
+																	href={
+																		details.github
+																	}
+																	target="_blank"
+																	rel="noreferrer"
+																	style={{
+																		color: `var(--main-primary-color)`,
+																	}}
+																>
+																	{
+																		details.github
+																	}
+																</a>
 														)}
 													</span>
 												</div>

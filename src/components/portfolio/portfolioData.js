@@ -10,6 +10,17 @@ import DevOverFlowAsk from "../../assets/img/portfolio/devOverFlow/ask.png";
 import DevOverFlowTags from "../../assets/img/portfolio/devOverFlow/tags.png";
 import DevOverFlowAnswer from "../../assets/img/portfolio/devOverFlow/answer.png";
 import DevOverFlowProfile from "../../assets/img/portfolio/devOverFlow/profile.png";
+
+import shopOHome from "../../assets/img/portfolio/ShopO/home.png";
+import shopOShop from "../../assets/img/portfolio/ShopO/shop.png";
+import shopOProduct from "../../assets/img/portfolio/ShopO/product.png";
+import shopOPayement from "../../assets/img/portfolio/ShopO/payement.png";
+import shopOProfile from "../../assets/img/portfolio/ShopO/profile.png";
+import shopOChat from "../../assets/img/portfolio/ShopO/chat.png";
+
+import shopOProReview from "../../assets/img/portfolio/ShopO/review.png";
+import shopOProAdmin from "../../assets/img/portfolio/ShopO/admin.png";
+
 import Image3 from "../../assets/img/portfolio/project-3.jpg";
 import Image4 from "../../assets/img/portfolio/project-4.jpg";
 import Image5 from "../../assets/img/portfolio/project-5.jpg";
@@ -60,9 +71,7 @@ const PortfolioData = [
 			{
 				description:
 					"Espace de questions-réponses pour les développeurs",
-				github: "",
-				// link: "ssxxx",
-				// preview: "sxsxs",
+				github: "https://github.com/tassadit1996/dev-over-flow",
 				language:
 					"Next.js, Tailwind CSS, Clerk, MongoDB, OpenAI API, RapidAPI",
 			},
@@ -70,17 +79,30 @@ const PortfolioData = [
 	},
 	{
 		id: 3,
-		type: "slider project",
-		image: Image3,
-		tag: [],
-		delayAnimation: "200",
+		type: "ShopO",
+		image: [
+			shopOHome,
+			shopOShop,
+			shopOProduct,
+			shopOPayement,
+			shopOProfile,
+			shopOChat,
+			shopOProReview,
+			shopOProAdmin,
+		],
+		tag: ["appWeb"],
+		delayAnimation: "100",
 		modalDetails: [
 			{
-				project: "Website",
-				client: "Themeforest",
-				language: " HTML, CSS, Javascript",
-				preview: "www.envato.com",
-				link: "https://www.envato.com",
+				description:
+					"ShopO permet à ses utilisateurs de devenir des vendeurs et de gérer leurs boutiques en ajoutant des produits à vendre. L'administrateur a le contrôle sur les fonctionnalités des vendeurs. Les visiteurs peuvent passer commande et acheter des produits.",
+				githubFront: "Front-end et Back-end",
+
+				githubLinkFront:
+					"https://github.com/tassadit1996/Multi_vondor_E_shop",
+
+				language:
+					"React JS, Redux, Tailwind CSS, Paypal, Node JS, Express JS, Mongo DB, JWT, Socket.io ",
 			},
 		],
 	},
