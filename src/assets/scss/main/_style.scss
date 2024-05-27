@@ -970,10 +970,10 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 }
 
 .app__skills-item {
-  flex: 1;
-  flex-basis: 20%;
+  flex: 0 1;
+  flex-basis: 15%;
   text-align: -webkit-center;
-  margin: 1rem;
+  margin: 9px;
 
   transition: all 0.3s ease-in-out;
 

@@ -5,7 +5,7 @@ const personalInfoContent = [
 	{ meta: "Nom", metaInfo: "MAGHNI" },
 	{ meta: "Age", metaInfo: "28 ans" },
 	{ meta: "Adresse", metaInfo: "Canada" },
-	{ meta: "Téléphone", metaInfo: "+14385588246" },
+	{ meta: "Téléphone", metaInfo: "+15147189215" },
 	{ meta: "Email", metaInfo: "maghni.tassadit@gmail.com" },
 	{
 		meta: "LinkedIn",

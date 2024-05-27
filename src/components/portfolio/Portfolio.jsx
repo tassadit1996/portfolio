@@ -20,6 +20,7 @@ const Portfolio = () => {
 						<Tab>TOUT</Tab>
 						<Tab>APPLICATION MOBILE</Tab>
 						<Tab>APPLICATION WEB</Tab>
+						<Tab>WORDPRESS</Tab>
 					</TabList>
 
 					<div className="container">
@@ -93,6 +94,40 @@ const Portfolio = () => {
 							<div className="tab-container">
 								{PortfolioData.filter((item) =>
 									item.tag.includes("appWeb")
+								).map((item) => {
+									const { id, type, image, delayAnimation } =
+										item;
+									return (
+										<div
+											key={id}
+											data-aos="fade-right"
+											data-aos-delay={delayAnimation}
+										>
+											<div
+												className="tab-content"
+												onClick={() => handleModal(id)}
+											>
+												<img
+													src={image[0]}
+													alt="portfolio project demo"
+												/>
+												<h3>
+													<span className="conent-title">
+														{type}
+													</span>
+												</h3>
+											</div>
+											{/* {getModal && <Modal props={modalId} />} */}
+										</div>
+									);
+								})}
+							</div>
+						</TabPanel>
+
+						<TabPanel>
+							<div className="tab-container">
+								{PortfolioData.filter((item) =>
+									item.tag.includes("wordpress")
 								).map((item) => {
 									const { id, type, image, delayAnimation } =
 										item;

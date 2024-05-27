@@ -17,14 +17,18 @@ import shopOProduct from "../../assets/img/portfolio/ShopO/product.png";
 import shopOPayement from "../../assets/img/portfolio/ShopO/payement.png";
 import shopOProfile from "../../assets/img/portfolio/ShopO/profile.png";
 import shopOChat from "../../assets/img/portfolio/ShopO/chat.png";
-
 import shopOProReview from "../../assets/img/portfolio/ShopO/review.png";
 import shopOProAdmin from "../../assets/img/portfolio/ShopO/admin.png";
 
-import Image3 from "../../assets/img/portfolio/project-3.jpg";
-import Image4 from "../../assets/img/portfolio/project-4.jpg";
-import Image5 from "../../assets/img/portfolio/project-5.jpg";
-import Image6 from "../../assets/img/portfolio/project-6.jpg";
+import TaxiAppMap from "../../assets/img/portfolio/Taxi App/map.png";
+import TaxiAppRegister from "../../assets/img/portfolio/Taxi App/register.png";
+import TaxiAppAccept from "../../assets/img/portfolio/Taxi App/accept.png";
+import TaxiAppDrawer from "../../assets/img/portfolio/Taxi App/drawer.png";
+import TaxiAppLocation from "../../assets/img/portfolio/Taxi App/location.png";
+import TaxiAppLocation2 from "../../assets/img/portfolio/Taxi App/location2.png";
+import TaxiAppProLogin from "../../assets/img/portfolio/Taxi App/login.png";
+import TaxiAppProPayments from "../../assets/img/portfolio/Taxi App/payments.png";
+import TaxiAppVerify from "../../assets/img/portfolio/Taxi App/verify.png";
 
 const PortfolioData = [
 	{
@@ -108,49 +112,99 @@ const PortfolioData = [
 	},
 	{
 		id: 4,
-		type: "local project",
-		image: Image4,
-		tag: ["logo", "video"],
+		type: "Taxi App",
+		image: [
+			TaxiAppMap,
+			TaxiAppRegister,
+			TaxiAppAccept,
+			TaxiAppDrawer,
+			TaxiAppLocation,
+			TaxiAppLocation2,
+			TaxiAppProLogin,
+			TaxiAppProPayments,
+			TaxiAppVerify,
+		],
+		tag: ["appMob"],
 		delayAnimation: "0",
 		modalDetails: [
 			{
-				project: "video",
-				client: "Videohive",
-				language: " Adobe After Effects",
-				preview: "www.videohive.net",
-				link: "https://www.videohive.net",
+				description:
+					"Une application de réservation de taxi avec deux parties, la partie conducteur et la partie passager.",
+				githubFront: "Front-end et Back-end",
+
+				githubLinkFront: "https://github.com/tassadit1996/Taxi-App",
+
+				language:
+					"React Native, Redux, TypeScript, Node, Express, MongoDB",
 			},
 		],
 	},
 	{
 		id: 5,
-		type: "saas project",
-		image: Image5,
-		tag: ["logo"],
+		type: "Marketplace App",
+		image: [TaxiAppVerify],
+		tag: ["appMob"],
 		delayAnimation: "100",
 		modalDetails: [
 			{
-				project: "Web Application",
-				client: "Themeforest",
-				language: "HTML, CSS, ReactJS",
-				preview: "www.envato.com",
-				link: "https://themeforest.net/item/deski-saas-software-react-template/33799794",
+				description: "Application mobile pour des vendeurs tiers.",
+				githubFront: "Front-end",
+				githubBack: "Back-end",
+				githubLinkFront:
+					"https://github.com/tassadit1996/marketplace-app",
+				githubLinkBack:
+					"https://github.com/tassadit1996/marketplace-server",
+
+				language:
+					"React Native, Node.js, Express js, MongoDB, Cloudinary,TypeScript",
 			},
 		],
 	},
 	{
 		id: 6,
-		type: "mockup project",
-		image: Image6,
-		tag: ["logo", "mockup"],
-		delayAnimation: "200",
+		type: "Fortuny conseil",
+		image: [TaxiAppVerify],
+		tag: ["wordpress"],
+		delayAnimation: "100",
 		modalDetails: [
 			{
-				project: "Website",
-				client: "Themeforest",
-				language: "HTML, CSS, Javascript",
-				preview: "www.pexels.com",
-				link: "https://www.pexels.com",
+				description: "Application mobile pour des vendeurs tiers.",
+				link: "Front-end",
+
+				language:
+					"Wordpress, Php, MySQL, HTML5, SCSS, CSS3, Javascript",
+			},
+		],
+	},
+	{
+		id: 7,
+		type: "Portail SCPI",
+		image: [TaxiAppVerify],
+		tag: ["wordpress"],
+		delayAnimation: "100",
+		modalDetails: [
+			{
+				description: "Application mobile pour des vendeurs tiers.",
+				link: "Front-end",
+
+				language:
+					"Wordpress, Php, MySQL, HTML5, SCSS, CSS3, Javascript",
+			},
+		],
+	},
+	{
+		id: 8,
+		type: "Portfolio",
+		image: [TaxiAppVerify],
+		tag: ["wordpress"],
+		delayAnimation: "100",
+		modalDetails: [
+			{
+				description: "Application mobile pour des vendeurs tiers.",
+				link: "Front-end",
+
+				language:
+					"Wordpress, Php, MySQL, HTML5, SCSS, CSS3, Javascript",
 			},
 		],
 	},
