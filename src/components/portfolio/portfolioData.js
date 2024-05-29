@@ -33,6 +33,28 @@ import TaxiAppVerify from "../../assets/img/portfolio/Taxi App/verify.png";
 const PortfolioData = [
 	{
 		id: 1,
+		type: "Dev Overflow",
+		image: [
+			DevOverFlowHome,
+			DevOverFlowAsk,
+			DevOverFlowTags,
+			DevOverFlowAnswer,
+			DevOverFlowProfile,
+		],
+		tag: ["appWeb"],
+		delayAnimation: "100",
+		modalDetails: [
+			{
+				description:
+					"Espace de questions-réponses pour les développeurs",
+				github: "https://github.com/tassadit1996/dev-over-flow",
+				language:
+					"Next.js, Tailwind CSS, Clerk, MongoDB, OpenAI API, RapidAPI",
+			},
+		],
+	},
+	{
+		id: 2,
 		type: "Podify Player",
 		image: [
 			Podify,
@@ -59,28 +81,7 @@ const PortfolioData = [
 			},
 		],
 	},
-	{
-		id: 2,
-		type: "Dev Overflow",
-		image: [
-			DevOverFlowHome,
-			DevOverFlowAsk,
-			DevOverFlowTags,
-			DevOverFlowAnswer,
-			DevOverFlowProfile,
-		],
-		tag: ["appWeb"],
-		delayAnimation: "100",
-		modalDetails: [
-			{
-				description:
-					"Espace de questions-réponses pour les développeurs",
-				github: "https://github.com/tassadit1996/dev-over-flow",
-				language:
-					"Next.js, Tailwind CSS, Clerk, MongoDB, OpenAI API, RapidAPI",
-			},
-		],
-	},
+
 	{
 		id: 3,
 		type: "ShopO",
@@ -139,75 +140,75 @@ const PortfolioData = [
 			},
 		],
 	},
-	{
-		id: 5,
-		type: "Marketplace App",
-		image: [TaxiAppVerify],
-		tag: ["appMob"],
-		delayAnimation: "100",
-		modalDetails: [
-			{
-				description: "Application mobile pour des vendeurs tiers.",
-				githubFront: "Front-end",
-				githubBack: "Back-end",
-				githubLinkFront:
-					"https://github.com/tassadit1996/marketplace-app",
-				githubLinkBack:
-					"https://github.com/tassadit1996/marketplace-server",
+	// {
+	// 	id: 5,
+	// 	type: "Marketplace App",
+	// 	image: [TaxiAppVerify],
+	// 	tag: ["appMob"],
+	// 	delayAnimation: "100",
+	// 	modalDetails: [
+	// 		{
+	// 			description: "Application mobile pour des vendeurs tiers.",
+	// 			githubFront: "Front-end",
+	// 			githubBack: "Back-end",
+	// 			githubLinkFront:
+	// 				"https://github.com/tassadit1996/marketplace-app",
+	// 			githubLinkBack:
+	// 				"https://github.com/tassadit1996/marketplace-server",
 
-				language:
-					"React Native, Node.js, Express js, MongoDB, Cloudinary,TypeScript",
-			},
-		],
-	},
-	{
-		id: 6,
-		type: "Fortuny conseil",
-		image: [TaxiAppVerify],
-		tag: ["wordpress"],
-		delayAnimation: "100",
-		modalDetails: [
-			{
-				description: "Application mobile pour des vendeurs tiers.",
-				link: "Front-end",
+	// 			language:
+	// 				"React Native, Node.js, Express js, MongoDB, Cloudinary,TypeScript",
+	// 		},
+	// 	],
+	// },
+	// {
+	// 	id: 6,
+	// 	type: "Fortuny conseil",
+	// 	image: [TaxiAppVerify],
+	// 	tag: ["wordpress"],
+	// 	delayAnimation: "100",
+	// 	modalDetails: [
+	// 		{
+	// 			description: "Application mobile pour des vendeurs tiers.",
+	// 			link: "Front-end",
 
-				language:
-					"Wordpress, Php, MySQL, HTML5, SCSS, CSS3, Javascript",
-			},
-		],
-	},
-	{
-		id: 7,
-		type: "Portail SCPI",
-		image: [TaxiAppVerify],
-		tag: ["wordpress"],
-		delayAnimation: "100",
-		modalDetails: [
-			{
-				description: "Application mobile pour des vendeurs tiers.",
-				link: "Front-end",
+	// 			language:
+	// 				"Wordpress, Php, MySQL, HTML5, SCSS, CSS3, Javascript",
+	// 		},
+	// 	],
+	// },
+	// {
+	// 	id: 7,
+	// 	type: "Portail SCPI",
+	// 	image: [TaxiAppVerify],
+	// 	tag: ["wordpress"],
+	// 	delayAnimation: "100",
+	// 	modalDetails: [
+	// 		{
+	// 			description: "Application mobile pour des vendeurs tiers.",
+	// 			link: "Front-end",
 
-				language:
-					"Wordpress, Php, MySQL, HTML5, SCSS, CSS3, Javascript",
-			},
-		],
-	},
-	{
-		id: 8,
-		type: "Portfolio",
-		image: [TaxiAppVerify],
-		tag: ["wordpress"],
-		delayAnimation: "100",
-		modalDetails: [
-			{
-				description: "Application mobile pour des vendeurs tiers.",
-				link: "Front-end",
+	// 			language:
+	// 				"Wordpress, Php, MySQL, HTML5, SCSS, CSS3, Javascript",
+	// 		},
+	// 	],
+	// },
+	// {
+	// 	id: 8,
+	// 	type: "Portfolio",
+	// 	image: [TaxiAppVerify],
+	// 	tag: ["wordpress"],
+	// 	delayAnimation: "100",
+	// 	modalDetails: [
+	// 		{
+	// 			description: "Application mobile pour des vendeurs tiers.",
+	// 			link: "Front-end",
 
-				language:
-					"Wordpress, Php, MySQL, HTML5, SCSS, CSS3, Javascript",
-			},
-		],
-	},
+	// 			language:
+	// 				"Wordpress, Php, MySQL, HTML5, SCSS, CSS3, Javascript",
+	// 		},
+	// 	],
+	// },
 ];
 
 export default PortfolioData;

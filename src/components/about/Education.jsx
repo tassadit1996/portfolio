@@ -3,9 +3,9 @@ import React from "react";
 const educationContent = [
 	{
 		year: "2018 - 2021",
-		degree: "Licence en systèmes informatique ",
+		degree: "Baccalauréat en systèmes informatique ",
 		institute: "Université Mouloud Mammeri (Algérie)",
-		details: `  Équivalence : Baccalauréat informatique spécialisé de 3 ans`,
+		details: `  évaluation comparative en cours`,
 	},
 ];
 

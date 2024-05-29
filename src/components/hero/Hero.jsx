@@ -5,7 +5,7 @@ import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
 import Social from "../../components/Social";
-import cv from "../../assets/img/cv.webp";
+import cv from "../../assets/img/CV Tassadit MAGHNI Développeuse web full stack.pdf";
 
 const heroContent = {
 	heroImage: heroImg,
