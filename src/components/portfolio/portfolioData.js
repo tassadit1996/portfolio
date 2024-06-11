@@ -30,6 +30,18 @@ import TaxiAppProLogin from "../../assets/img/portfolio/Taxi App/login.png";
 import TaxiAppProPayments from "../../assets/img/portfolio/Taxi App/payments.png";
 import TaxiAppVerify from "../../assets/img/portfolio/Taxi App/verify.png";
 
+import FortunyHome from "../../assets/img/portfolio/Fortuny conseil/Home.png";
+import FortunyQui from "../../assets/img/portfolio/Fortuny conseil/Qui sommes nous.png";
+import FortunySCPIs from "../../assets/img/portfolio/Fortuny conseil/SCPIs.png";
+import FortunySCPI from "../../assets/img/portfolio/Fortuny conseil/SCPI.png";
+import FortunySimulator from "../../assets/img/portfolio/Fortuny conseil/Simulator.png";
+
+import PortailHome from "../../assets/img/portfolio/Portail SCPI/Home.png";
+import PortailBlog from "../../assets/img/portfolio/Portail SCPI/Blog.png";
+import PortailSCPI from "../../assets/img/portfolio/Portail SCPI/SCPI.png";
+import PortailComparateur from "../../assets/img/portfolio/Portail SCPI/Comparateur.png";
+import PortailSimulateur from "../../assets/img/portfolio/Portail SCPI/Simulateur.png";
+
 const PortfolioData = [
 	{
 		id: 1,
@@ -47,7 +59,9 @@ const PortfolioData = [
 			{
 				description:
 					"Espace de questions-réponses pour les développeurs",
-				github: "https://github.com/tassadit1996/dev-over-flow",
+				githubFront: "https://github.com/tassadit1996/dev-over-flow",
+				githubLinkFront:
+					"https://github.com/tassadit1996/dev-over-flow",
 				language:
 					"Next.js, Tailwind CSS, Clerk, MongoDB, OpenAI API, RapidAPI",
 			},
@@ -161,38 +175,53 @@ const PortfolioData = [
 	// 		},
 	// 	],
 	// },
-	// {
-	// 	id: 6,
-	// 	type: "Fortuny conseil",
-	// 	image: [TaxiAppVerify],
-	// 	tag: ["wordpress"],
-	// 	delayAnimation: "100",
-	// 	modalDetails: [
-	// 		{
-	// 			description: "Application mobile pour des vendeurs tiers.",
-	// 			link: "Front-end",
+	{
+		id: 6,
+		type: "Fortuny conseil",
+		image: [
+			FortunyHome,
+			FortunyQui,
+			FortunySCPIs,
+			FortunySCPI,
+			FortunySimulator,
+		],
+		tag: ["wordpress"],
+		delayAnimation: "100",
+		modalDetails: [
+			{
+				description:
+					"Application web conçue pour un cabinet de gestion de patrimoine.",
+				link: "https://fortunyconseil.fr/",
+				preview: "https://fortunyconseil.fr/",
+				language:
+					"Wordpress, Php, MySQL, HTML5, SCSS, CSS3, Javascript",
+			},
+		],
+	},
+	{
+		id: 7,
+		type: "Portail SCPI",
+		image: [
+			PortailHome,
+			PortailBlog,
+			PortailSCPI,
+			PortailComparateur,
+			PortailSimulateur,
+		],
+		tag: ["wordpress"],
+		delayAnimation: "100",
+		modalDetails: [
+			{
+				description:
+					"Application web conçue pour un cabinet de gestion de patrimoine.",
+				link: "https://portail-scpi.fr/",
+				preview: "https://portail-scpi.fr/",
 
-	// 			language:
-	// 				"Wordpress, Php, MySQL, HTML5, SCSS, CSS3, Javascript",
-	// 		},
-	// 	],
-	// },
-	// {
-	// 	id: 7,
-	// 	type: "Portail SCPI",
-	// 	image: [TaxiAppVerify],
-	// 	tag: ["wordpress"],
-	// 	delayAnimation: "100",
-	// 	modalDetails: [
-	// 		{
-	// 			description: "Application mobile pour des vendeurs tiers.",
-	// 			link: "Front-end",
-
-	// 			language:
-	// 				"Wordpress, Php, MySQL, HTML5, SCSS, CSS3, Javascript",
-	// 		},
-	// 	],
-	// },
+				language:
+					"Wordpress, Php, MySQL, HTML5, SCSS, CSS3, Javascript",
+			},
+		],
+	},
 	// {
 	// 	id: 8,
 	// 	type: "Portfolio",

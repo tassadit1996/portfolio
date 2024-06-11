@@ -60,63 +60,64 @@ const Modal = ({ modalId, setGetModal }) => {
 														{details.description}
 													</span>
 												</div>
-												<div className="col-12 col-sm-6 mb-2">
-													<i
-														className="fa fa-github pr-2"
-														style={{
-															fontSize: 16,
-															fontWeight: 600,
-														}}
-													></i>
-													<span
-														style={{
-															fontSize: 16,
-															fontWeight: 600,
-														}}
-													>
-														{" "}
-														Github :{" "}
-													</span>
-													<span
-														className="ft-wt-600 uppercase"
-														style={{
-															color: `var(--main-primary-color)`,
-														}}
-													>
-														{details.githubFront ? (
-															<>
+												{details.githubFront ? (
+													<div className="col-12 col-sm-6 mb-2">
+														<i
+															className="fa fa-github pr-2"
+															style={{
+																fontSize: 16,
+																fontWeight: 600,
+															}}
+														></i>
+														<span
+															style={{
+																fontSize: 16,
+																fontWeight: 600,
+															}}
+														>
+															{" "}
+															Github :{" "}
+														</span>
+														<span
+															className="ft-wt-600 uppercase"
+															style={{
+																color: `var(--main-primary-color)`,
+															}}
+														>
+															{details.githubFront ? (
+																<>
+																	<a
+																		href={
+																			details.githubLinkFront
+																		}
+																		target="_blank"
+																		rel="noreferrer"
+																		style={{
+																			color: `var(--main-primary-color)`,
+																		}}
+																	>
+																		{
+																			details.githubFront
+																		}
+																	</a>
+																	{", "}
+																	<a
+																		href={
+																			details.githubLinkBack
+																		}
+																		target="_blank"
+																		rel="noreferrer"
+																		style={{
+																			color: `var(--main-primary-color)`,
+																		}}
+																	>
+																		{
+																			details.githubBack
+																		}
+																	</a>
+																</>
+															) : (
 																<a
-																	href={
-																		details.githubLinkFront
-																	}
-																	target="_blank"
-																	rel="noreferrer"
-																	style={{
-																		color: `var(--main-primary-color)`,
-																	}}
-																>
-																	{
-																		details.githubFront
-																	}
-																</a>
-																{", "}
-																<a
-																	href={
-																		details.githubLinkBack
-																	}
-																	target="_blank"
-																	rel="noreferrer"
-																	style={{
-																		color: `var(--main-primary-color)`,
-																	}}
-																>
-																	{
-																		details.githubBack
-																	}
-																</a>
-															</>
-														) : (
-															<a
 																	href={
 																		details.github
 																	}
@@ -130,9 +131,12 @@ const Modal = ({ modalId, setGetModal }) => {
 																		details.github
 																	}
 																</a>
-														)}
-													</span>
-												</div>
+															)}
+														</span>
+													</div>
+												) : (
+													""
+												)}
 												<div className="col-12 col-sm-6 mb-2">
 													<i
 														className="fa fa-code pr-2"

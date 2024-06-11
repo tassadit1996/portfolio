@@ -5,18 +5,12 @@ const experienceContent = [
 		year: "   Avril 2022 - Avril 2024",
 		position: " Développeur Full Stack",
 		compnayName: "STARTY MEDIA Tizi Ouzou (Algérie)",
-		details: `● Analyser les besoins
-    ● Rédiger les spécifications techniques.
-    ● Participer à la mise en place de l’architecture logicielle des nouvelles fonctionnalités.
-    ● Effectuer la conception et le développement des applications en Node JS, React JS, Knex JS, MySql, TypeScript et Less.
-    ● Effectuer la conception et le développement de sites web en Wordpress, Php, Html5 et Scss.
-    ● Travailler avec l’équipe UX pour évaluer la faisabilité technique et identifier les risques.
-    ● Identifier et construire un ensemble de composants d’UI réutilisables et configurables.
-    ● Participer aux Scrum meeting (Agile – Sprint de 2 semaines, lancement, Démo, Retro, StandUp).
-    ● Former et intégrer les nouveaux arrivants.
-    ● Animer les démonstration avec le client.
-    ● Utilisation de l’outils de Conteneurisation Docker.
-    ● Développer les tests unitaires avec Jest.`,
+		details: `● Analyser les besoins et rédiger les spécifications techniques.
+		● Concevoir et développer des applications en Node JS, React JS, Knex JS, MySQL, TypeScript et Less.
+		● Concevoir et développer des sites web en WordPress, PHP, HTML5, SCSS et JavaScript.
+		● Collaborer avec l’équipe UX pour évaluer la faisabilité technique et identifier les risques.
+		● Participer aux réunions Scrum et aux différentes phases Agile (Sprint de 2 semaines, lancement, Démo, Rétro, StandUp).
+		● Développer des tests unitaires avec Jest et utiliser Docker pour la conteneurisation.`,
 	},
 	{
 		year: "Sep 2020 - Nov 2021",
@@ -24,8 +18,7 @@ const experienceContent = [
 		compnayName: "LHC Design Tizi Ouzou (Algérie)",
 		details: `● Analyser les besoins.
     ● Rédiger les spécifications techniques.
-    ● Effectuer la conception et le développement de sites web en Wordpress, Php, 
-    Html5 et Css3
+    ● Effectuer la conception et le développement de sites web en Wordpress, Php, Html5, Css3 et Javascript
     ● Maintenance corrective et évolutive des sites web.
     ● Animer les démonstration avec le client`,
 	},
