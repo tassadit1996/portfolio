@@ -4,7 +4,7 @@ const experienceContent = [
 	{
 		year: "   Avril 2022 - Avril 2024",
 		position: " Développeur Full Stack",
-		compnayName: "STARTY MEDIA Tizi Ouzou (Algérie)",
+		compnayName: "Fortuny / Portail SCPI Paris (France)",
 		details: `● Analyser les besoins et rédiger les spécifications techniques.
 		● Concevoir et développer des applications en Node JS, React JS, Knex JS, MySQL, TypeScript et Less.
 		● Concevoir et développer des sites web en WordPress, PHP, HTML5, SCSS et JavaScript.
