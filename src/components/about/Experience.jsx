@@ -2,6 +2,15 @@ import React from "react";
 
 const experienceContent = [
 	{
+		year: "   Juillet 2024 - Janvier 2025",
+		position: " Programmeuse analyste",
+		compnayName: "Xpertsource.com Montréal (Canada)",
+		details: ` ● Analyser les besoins et rédiger les spécifications techniques.
+● Concevoir et développer des applications en Node.js, Next.js, AWS, Drizzle ORM, TypeScript et Tailwind.
+● Participer aux réunions Scrum et aux différentes phases Agiles (sprints de 2 semaines, lancement, démo, rétrospective, stand-up).
+● Développer des tests unitaires avec Jest et utiliser Docker pour la conteneurisation.`,
+	},
+	{
 		year: "   Avril 2022 - Avril 2024",
 		position: " Développeur Full Stack",
 		compnayName: "Fortuny / Portail SCPI Paris (France)",
